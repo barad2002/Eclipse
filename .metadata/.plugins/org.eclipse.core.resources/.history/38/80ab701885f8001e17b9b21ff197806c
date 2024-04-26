@@ -1,0 +1,37 @@
+package testCases;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import baseClass.BaseClass;
+import pageObject.GiftCardsPage;
+
+public class TC_GiftCards extends BaseClass{
+	
+	GiftCardsPage gp;
+	String repName,repEmail,repMobile,yName,yEmail,yMobile,enAddress,pincode;
+	
+	
+	@Test(priority=0)
+	@Parameters({"url"})
+	public void go_to_the_gift_cards_page() {
+		gp = new GiftCardsPage(driver);
+		   
+		   //driver.switchTo().frame(gp.getHead());
+		   gp.clickGiftcards();
+		   BaseClass.getLogger().info("Going to Gift Cards Page...");
+		   
+	}
+	
+	public void click_the_birthday_or_anniversary_card() throws InterruptedException {
+		gp = new GiftCardsPage(driver);
+//		BaseClass.getLogger().info("Scrolling to the BirthDay/Anniversary card...");
+		BaseClass.scrolling(gp.ReachBirthday);
+		
+//		BaseClass.getLogger().info("Clicking the BirthDay/Anniversary card...");
+		gp.clickBirthday(driver);
+		BaseClass.getLogger().info("validating...");
+		
+	}
+
+}

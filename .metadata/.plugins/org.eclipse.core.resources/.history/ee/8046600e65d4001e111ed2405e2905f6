@@ -1,0 +1,26 @@
+package seleniumproject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class MyTest {
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.youtube.com/");
+		Thread.sleep(3000);
+		
+		driver.findElement(By.name("search_query")).click();
+		
+//		WebElement search = driver.findElement(By.id("search"));
+//		search.sendKeys("katchi sera");
+		
+		driver.findElement(By.name("search_query")).sendKeys("katchi sera");
+		
+		driver.findElement(By.id("search-icon-legacy")).click();
+		
+		driver.findElement(By.id("yt-simple-endpoint style-scope ytd-video-renderer")).click();
+	}
+
+}

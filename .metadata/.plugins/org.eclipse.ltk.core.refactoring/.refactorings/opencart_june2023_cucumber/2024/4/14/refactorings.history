@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BaseClass.java&apos; to &apos;Hackathon_Project/src/test/java/factory&apos;&#x0D;&#x0A;- Original project: &apos;opencart_june2023_cucumber&apos;&#x0D;&#x0A;- Destination element: &apos;Hackathon_Project/src/test/java/factory&apos;&#x0D;&#x0A;- Original element: &apos;factory.BaseClass.java&apos;" description="Copy compilation unit" destination="=Hackathon_Project/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;factory" element1="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;factory{BaseClass.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1712226133458" units="1" version="1.0"/>
+</session>

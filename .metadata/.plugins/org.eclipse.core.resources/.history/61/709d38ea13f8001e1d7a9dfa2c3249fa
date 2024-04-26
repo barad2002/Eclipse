@@ -1,0 +1,21 @@
+package testCases;
+
+import org.openqa.selenium.WebDriver;
+
+import pageObject.GiftCardsPage;
+
+public class TC_GiftCards {
+	static public WebDriver driver;
+	GiftCardsPage gp;
+	String repName,repEmail,repMobile,yName,yEmail,yMobile,enAddress,pincode;
+	
+	public void go_to_the_gift_cards_page() {
+		gp = new GiftCardsPage(driver);
+		   
+		   //driver.switchTo().frame(gp.getHead());
+		   gp.clickGiftcards();
+//		   BaseClass.getLogger().info("Going to Gift Cards Page...");
+		   
+	}
+
+}

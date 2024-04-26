@@ -1,0 +1,46 @@
+package testCases;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import baseClass.BaseClass;
+import pageObject.GiftCardsPage;
+
+public class TC_GiftCards extends BaseClass{
+	static public WebDriver driver;
+	GiftCardsPage gp;
+	String repName,repEmail,repMobile,yName,yEmail,yMobile,enAddress,pincode;
+	
+//	@BeforeClass
+//	@Parameters({"browser"})
+//	public void setDriver(String br) {
+//		if(br.equalsIgnoreCase("chrome")) {
+//		driver = new ChromeDriver();
+//		
+//		}
+//		else if(br.equalsIgnoreCase("edge")) {
+//			driver = new EdgeDriver();
+//		}
+//	
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+//		driver.manage().window().maximize();
+//	}
+	
+	@Test(priority=0)
+	@Parameters({"url"})
+	public void go_to_the_gift_cards_page() {
+		gp = new GiftCardsPage(driver);
+		   
+		   //driver.switchTo().frame(gp.getHead());
+		   gp.clickGiftcards();
+//		   BaseClass.getLogger().info("Going to Gift Cards Page...");
+		   
+	}
+
+}

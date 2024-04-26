@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\2318452\eclipse-workspace\CucumberDemo"/>
+			<item value="C:\Users\2318452\eclipse-workspace\Gift_cards\src\test\java\mainProject\GiftCards.java"/>
+			<item value="C:\Users\2318452\Downloads\CAS_NewsAroundCognizant\CAS_Project"/>
+			<item value="C:\Users\2318452\eclipse-workspace\seleniumproject"/>
+			<item value="C:\Users\2318452\eclipse-workspace\seleniumwebdriver\src\selenium\MyTest.java"/>
+			<item value="C:\Users\2318452\eclipse-workspace\fytfu"/>
+			<item value="C:\Users\2318452\eclipse-workspace\bard\src\bard\gsgs.java"/>
+			<item value="C:\Users\2318452\eclipse-workspace\javademo\src\javademo\Main.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="Hackathon_Project"/>
+			<item value="CucumberDemo"/>
+			<item value="Project_gift"/>
+			<item value="AutomationFramework"/>
+			<item value="AlertHandling"/>
+			<item value="seleniumproject"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Hackathon_Project"/>
+			<item value="CucumberDemo"/>
+			<item value="Gift_cards"/>
+			<item value="AutomationFramework"/>
+			<item value="AlertHandling"/>
+			<item value="seleniumproject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

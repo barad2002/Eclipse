@@ -1,0 +1,38 @@
+package javademo;
+
+public class Static {
+	 int a=10;
+	int b=2;
+	//a=3;
+	
+	static void m1()  
+	{
+		System.out.println("Hii all");
+	}
+	
+	void m2()
+	{
+		System.out.println("How are you?");
+	}
+	
+	void m()
+	{
+		System.out.println(a);
+		System.out.println(b);
+		m1();
+		m2();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println(a);      // Static method can access static stuff directly.
+		Static st = new Static();
+		//System.out.println(st.b);
+		
+		st.m1();
+		st.m2();
+		st.m();
+
+	}
+
+}
